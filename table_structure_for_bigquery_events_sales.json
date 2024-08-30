@@ -1,0 +1,47 @@
+[
+    {
+        "name": "doorsOpen",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "id",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "name",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "promoterName",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "starts",
+        "type": "TIMESTAMP",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "timeslotEnabled",
+        "type": "BOOLEAN",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "tourId",
+        "type": "INTEGER",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "tourName",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "venueName",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    }
+]

@@ -1,0 +1,167 @@
+[
+    {
+        "name": "affiliate",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "currency",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "date",
+        "type": "TIMESTAMP",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "deliveryMethod",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "deviceModel",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "deviceType",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "eventDate",
+        "type": "TIMESTAMP",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "eventId",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "eventName",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "faceValue",
+        "type": "FLOAT",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "grossCost",
+        "type": "FLOAT",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "grossFace",
+        "type": "FLOAT",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "grossSales",
+        "type": "FLOAT",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "isInternetOrder",
+        "type": "BOOLEAN",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "isPending",
+        "type": "BOOLEAN",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "country",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "countryIso",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "postCode",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "region1",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "region2",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "region3",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "region4",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "offerCode",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "partnerSite",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "paymentMethod",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "priceId",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "priceName",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "salesChannel",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "sold",
+        "type": "INTEGER",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "source",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "taxTotal",
+        "type": "FLOAT",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "ticketPrice",
+        "type": "FLOAT",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "uniqueCode",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    }
+]
