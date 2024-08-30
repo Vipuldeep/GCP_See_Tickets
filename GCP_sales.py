@@ -15,7 +15,11 @@ def hello_http(request):
     Returns:
         The response text indicating success or failure.
     """
-    
+
+    # Ensure the function handles GET requests correctly
+    if request.method == 'GET':
+        return "This function only accepts POST requests.", 405  # Method Not Allowed
+
     # Declared project, dataset, and table names
     project_id = "otis-media"  
     dataset_id = "seetickets_data"  
@@ -72,7 +76,11 @@ def hello_http(request):
     }
     
     # Make the API request
-    response = requests.post(url, headers=headers, data=json.dumps(payload))
+    try:
+        response = requests.post(url, headers=headers, data=json.dumps(payload))
+    except requests.exceptions.RequestException as e:
+        print(f"Error making API request: {e}")
+        return f"Error making API request: {e}", 500
     
     # Handle the response
     if response.status_code == 200:
